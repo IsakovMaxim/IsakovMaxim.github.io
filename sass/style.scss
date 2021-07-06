@@ -1,0 +1,31 @@
+@import 'variables';
+@import 'promo';
+@import 'header';
+@import 'buttons';
+@import 'advantages';
+@import 'consultation';
+@import 'forms';
+@import 'carousel';
+@import 'catalog';
+@import 'reviews';
+@import 'footer';
+@import 'modalwindows';
+@import 'media';
+
+
+* {
+	font-family: 'Museo Sans Cyrl', sans-serif;
+}
+.container {
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+.body_hide {
+	opacity: 0;
+	transition: .9s opacity ease-in-out;
+}
+.body_visible {
+	opacity: 1;
+}
+
